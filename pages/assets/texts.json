@@ -1,0 +1,394 @@
+{
+  "navbar": [
+    {
+      "locale": "fr",
+      "navOne": "À propos",
+      "navTwo": "Services",
+      "navThree": "Projets",
+      "navFour": "Équipe",
+      "navFive": "Témoignages",
+      "callToActon": "Discutons-en"
+    },
+    {
+      "locale": "en",
+      "navOne": "About",
+      "navTwo": "Services",
+      "navThree": "Projects",
+      "navFour": "Team",
+      "navFive": "Testimonials",
+      "callToActon": "Let's discuss it"
+    }
+  ],
+  "hero": [
+    {
+      "locale": "fr",
+      "title": "Bonjour!",
+      "titleTwo": "Je m'appelle Samba Diaw.",
+      "description": "Développeur Full-Stack créant avec JavaScript.",
+      "descriptionTwo": "Fondateur @Kem.",
+      "descriptionThree": "Envoyez-moi un message si vous voulez que nous collaborions.",
+      "button1": "Discutons de votre projet",
+      "button2": "Télécharger le manifeste",
+      "smallTitle": "Quelques-uns de mes clients"
+    },
+    {
+      "locale": "en",
+      "title": "Hello!",
+      "titleTwo": "I'm Samba Diaw.",
+      "description": "Full-Stack Developer building with JavaScript.",
+      "descriptionTwo": "Founder @Kem.",
+      "descriptionThree": "Drop me a message if you want us to collaborate.",
+      "button1": "Let's discuss your project",
+      "button2": "Download Manifesto",
+      "smallTitle": "Some of my clients"
+    }
+  ],
+  "about": [
+    {
+      "locale": "fr",
+      "smallTitle": "STARTUPS, SCALE-UPS, ET AU-DELÀ",
+      "title": "Résultats positifs pour des projets web et mobiles comme le vôtre",
+      "description": "Nous sommes fiers de nous associer à nos clients pour trouver des solutions significatives.",
+      "mediumTitle": "Connectez-vous avec nous",
+      "secondDescription": "Notre équipe est motivée par notre objectif et nos valeurs ; nous améliorons continuellement nos processus, nous faisons notre meilleur travail dans le cadre de partenariats solides avec vous et nous partageons de manière transparente notre façon de travailler."
+    },
+    {
+      "locale": "en",
+      "smallTitle": "STARTUPS, SCALE-UPS, AND BEYOND",
+      "title": "Positive outcomes for web and mobile projects like yours",
+      "description": "We’re proud to partner with clients on meaningful solutions.",
+      "mediumTitle": "Connect With Us",
+      "secondDescription": "Our team is driven by our purpose and values; we continually improve our process, do our best work in strong partnerships with you, and transparently share how we work."
+    }
+  ],
+  "services": [
+    {
+      "locale": "fr",
+      "smallTitle": "NOS SERVICES",
+      "title": "Votre partenaire expert pour la création d'applications à mission",
+      "buttonRedirection": "EXPLORER LES SERVICES",
+      "cardOneTitle": "Développement de Landing Page & de Site Web",
+      "cardOneDescription": "Avec nous, vos landing pages et sites web sont entre de bonnes mains.",
+      "cardTwoTitle": "Développement d'Application Web",
+      "cardTwoDescription": "Confiez-nous le développement de votre application web.",
+      "cardThreeTitle": "Développement d'Application Mobile",
+      "cardThreeDescription": "Développons ensemble votre application mobile.",
+      "cardButtonTitle": "Voir les détails"
+    },
+    {
+      "locale": "en",
+      "smallTitle": "OUR SERVICES",
+      "title": "Your expert partners for building mission-driven apps",
+      "buttonRedirection": "EXPLORE SERVICES",
+      "cardOneTitle": "Landing Page & Website Development",
+      "cardOneDescription": "With us, your landing pages and websites are in good hands.",
+      "cardTwoTitle": "Web App Development",
+      "cardTwoDescription": "Entrust us with the development of your web application.",
+      "cardThreeTitle": "Mobile App Development",
+      "cardThreeDescription": "Let's develop your mobile application together.",
+      "cardButtonTitle": "View Details"
+    }
+  ],
+  "portfolio": [
+    {
+      "locale": "fr",
+      "smallTitle": "PORTEFEUILLE DE CRÉATION",
+      "title": "Projets récents",
+      "description": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
+      "filterOne": "Tous",
+      "filterTwo": "Site Web",
+      "filterThree": "Application Web",
+      "filterFour": "Application Mobile",
+      "cardOneTitle": "Serin Informatique",
+      "cardOneDescription": "SERIN se positionne comme un acteur de référence dans les  domaines d’infrastructure informatique, la cybersécurité, les solutions d’impressions professionnelles et la téléphonie iP.",
+      "cardTwoTitle": "Artemis Immobilier",
+      "cardTwoDescription": "Artemis est spécialisée depuis 10 ans dans l’acquisition de biens immobiliers anciens à vocation patrimoniale en vue de les restructurer, réhabiliter et redonner jeunesse aux pierres anciennes.",
+      "cardThreeTitle": "Century Social Club",
+      "cardThreeDescription": "Century Social Club est une collection inspirée par l'univers des films d'animation. Pas trop réel, pas trop cartoon.",
+      "cardFourTitle": "My Nfties",
+      "cardFourDescription": "My Nfties est la fusion entre le monde des réseaux sociaux et les NFTs | Créez vos Nfties en moins de 15 sec depuis votre smartphone."
+    },
+    {
+      "locale": "en",
+      "smallTitle": "CREATIVE PORTFOLIO",
+      "title": "Recent works",
+      "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "filterOne": "All",
+      "filterTwo": "Website",
+      "filterThree": "Web App",
+      "filterFour": "Mobile App",
+      "cardOneTitle": "Serin Informatique",
+      "cardOneDescription": "Founded in 1997 with the objective of supporting companies in their digital development, SERIN is positioned as a reference player in the fields of IT infrastructure, cybersecurity, professional printing solutions and iP telephony.",
+      "cardTwoTitle": "Artemis Immobilier",
+      "cardTwoDescription": "Artemis has been specializing for 10 years in the acquisition of old properties with a heritage vocation in order to restructure them, rehabilitate them and give them a new lease on life.",
+      "cardThreeTitle": "Century Social Club",
+      "cardThreeDescription": "Century Secret Club is a collection inspired by the world of animated films. Not too real, not too cartoonish.",
+      "cardFourTitle": "My Nfties",
+      "cardFourDescription": "My Nfties is the fusion between the world of social networks and NFTs. Create your Nfties in less than 15 sec from your smartphone."
+    }
+  ],
+  "clients": [
+    {
+      "locale": "fr",
+      "title": "Nos clients sont satisfaits",
+      "description": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre."
+    },
+    {
+      "locale": "en",
+      "title": "Some of our happy clients",
+      "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+    }
+  ],
+  "callToAction": [
+    {
+      "locale": "fr",
+      "title": "À quoi ressemble le succès pour votre projet?",
+      "inputPlaceholder": "Entrer votre email",
+      "buttonTextOne": "Contactez-moi",
+      "buttonTextTwo": "Envoyé!",
+      "buttonTextThree": "En cours d'envoi..."
+    },
+    {
+      "locale": "en",
+      "title": "What does success look like for your project?",
+      "inputPlaceholder": "Enter your email",
+      "buttonTextOne": "Contact me",
+      "buttonTextTwo": "Submitted",
+      "buttonTextThree": "Submitting..."
+    }
+  ],
+  "team": [
+    {
+      "locale": "fr",
+      "smallTitle": "ÉQUIPE",
+      "title": "L'équipe qu'il vous faut",
+      "subtitle": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
+      "nameOne": "Joël Tan",
+      "jobTitleOne": "Développeur Full-Stack",
+      "imageOne": "/images/team/joel-tan.jpeg",
+      "nameTwo": "Abraham Diaw",
+      "jobTitleTwo": "Développeur Full-Stack",
+      "imageTwo": "/images/team/abraham-diaw.jpeg",
+      "nameThree": "Samba Diaw",
+      "jobTitleThree": "Développeur Full-Stack",
+      "imageThree": "/images/team/samba.jpeg"
+    },
+    {
+      "locale": "en",
+      "smallTitle": "TEAM",
+      "title": "The right team for you",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "nameOne": "Joël Tan",
+      "jobTitleOne": "Full-Stack Developer",
+      "imageOne": "/images/team/joel-tan.jpeg",
+      "nameTwo": "Abraham Diaw",
+      "jobTitleTwo": "Full-Stack Developer",
+      "imageTwo": "/images/team/abraham-diaw.jpeg",
+      "nameThree": "Samba Diaw",
+      "jobTitleThree": "Full-Stack Developer",
+      "imageThree": "/images/team/samba.jpeg"
+    }
+  ],
+  "pricing": [
+    {
+      "locale": "fr",
+      "smallTitle": "TARIFS",
+      "title": "Notre tarification",
+      "subtitle": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
+      "cardOneSmallTitle": "Personnel",
+      "cardOnePrice": "59€",
+      "cardOnePeriod": "/ année",
+      "cardOneDescription": "Parfait pour une utilisation dans un site web personnel ou un projet client.",
+      "cardOnePointOne": "1 Utilisateur",
+      "cardOnePointTwo": "Tous les composants de l'interface utilisateur",
+      "cardOnePointThree": "Accès à vie",
+      "cardOnePointFour": "Mises à jour gratuites",
+      "cardOnePointFive": "Utilisation sur 1 (un) projet",
+      "cardOnePointSix": "3 mois d'assistance",
+      "cardOneButtonTitle": "Choisir le personnel",
+      "cardTwoSmallTitle": "Entreprise",
+      "cardTwoPrice": "199€",
+      "cardTwoPeriod": "/ année",
+      "cardTwoDescription": "Parfait pour une utilisation dans un site Web d'entreprise ou un projet client.",
+      "cardTwoPointOne": "5 utilisateurs",
+      "cardTwoPointTwo": "Tous les composants de l'interface utilisateur",
+      "cardTwoPointThree": "Accès à vie",
+      "cardTwoPointFour": "Mises à jour gratuites",
+      "cardTwoPointFive": "Utilisation sur 3 (un) projet",
+      "cardTwoPointSix": "4 mois d'assistance",
+      "cardTwoButtonTitle": "Choisir une entreprise",
+      "cardThreeSmallTitle": "Professionnel",
+      "cardThreePrice": "256€",
+      "cardThreePeriod": "/ année",
+      "cardThreeDescription": "Parfait pour une utilisation dans un site Web professionnel ou un projet client.",
+      "cardThreePointOne": "Utilisateurs illimités",
+      "cardThreePointTwo": "Tous les composants de l'interface utilisateur",
+      "cardThreePointThree": "Accès à vie",
+      "cardThreePointFour": "Mises à jour gratuites",
+      "cardThreePointFive": "Utilisation sur un projet illimité",
+      "cardThreePointSix": "12 mois d'assistance",
+      "cardThreeButtonTitle": "Choisir professionnel"
+    },
+    {
+      "locale": "en",
+      "smallTitle": "PRICING",
+      "title": "Our Pricing Plan",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "cardOneSmallTitle": "Personal",
+      "cardOnePrice": "$59",
+      "cardOnePeriod": "/ year",
+      "cardOneDescription": "Perfect for using in a personal website or a client project.",
+      "cardOnePointOne": "1 User",
+      "cardOnePointTwo": "All UI components",
+      "cardOnePointThree": "Lifetime access",
+      "cardOnePointFour": "Free updates",
+      "cardOnePointFive": "Use on 1 (one) project",
+      "cardOnePointSix": "3 Months support",
+      "cardOneButtonTitle": "Choose Personal",
+      "cardTwoSmallTitle": "Business",
+      "cardTwoPrice": "$199",
+      "cardTwoPeriod": "/ year",
+      "cardTwoDescription": "Perfect for using in a Business website or a client project.",
+      "cardTwoPointOne": "5 Users",
+      "cardTwoPointTwo": "All UI components",
+      "cardTwoPointThree": "Lifetime access",
+      "cardTwoPointFour": "Free updates",
+      "cardTwoPointFive": "Use on 3 (Three) project",
+      "cardTwoPointSix": "4 Months support",
+      "cardTwoButtonTitle": "Choose Business",
+      "cardThreeSmallTitle": "Professionnel",
+      "cardThreePrice": "$256",
+      "cardThreePeriod": "/ year",
+      "cardThreeDescription": "Perfect for using in a Professional website or a client project.",
+      "cardThreePointOne": "Unlimited Users",
+      "cardThreePointTwo": "All UI components",
+      "cardThreePointThree": "Lifetime access",
+      "cardThreePointFour": "Free updates",
+      "cardThreePointFive": "Use on Unlimited project",
+      "cardThreePointSix": "12 Months support",
+      "cardThreeButtonTitle": "Choose Professional"
+    }
+  ],
+  "testimonials": [
+    {
+      "locale": "fr",
+      "subtitle": "TÉMOIGNAGES",
+      "title": "Écoutez nos clients",
+      "description": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
+      "testimonialOneText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialOneName": "Musharof Chy",
+      "testimonialOneRole": "Founder @ LineIcons",
+      "testimonialSecondText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialSecondName": "Devid Sailio",
+      "testimonialSecondRole": "Founder @ TailGrids",
+      "testimonialThirdText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialThirdName": "Jenifer Lofeez",
+      "testimonialThirdRole": "Founder @ Ayro UI",
+      "testimonialFourthText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialFourthName": "Justin Herry",
+      "testimonialFourthRole": "Founder @ UIdeck"
+    },
+    {
+      "locale": "en",
+      "subtitle": "TESTIMONIALS",
+      "title": "Hear from our clients",
+      "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "testimonialOneText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialOneName": "Musharof Chy",
+      "testimonialOneRole": "Founder @ LineIcons",
+      "testimonialSecondText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialSecondName": "Devid Sailio",
+      "testimonialSecondRole": "Founder @ TailGrids",
+      "testimonialThirdText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialThirdName": "Jenifer Lofeez",
+      "testimonialThirdRole": "Founder @ Ayro UI",
+      "testimonialFourthText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet tempus augue, ac venenatis lectus tempus ut. Sed sodales erat a libero.",
+      "testimonialFourthName": "Justin Herry",
+      "testimonialFourthRole": "Founder @ UIdeck"
+    }
+  ],
+  "blog": [
+    {
+      "locale": "fr",
+      "smallTitle": "BLOG",
+      "title": "Derniers blogs",
+      "description": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
+      "blogOneTitle": "Tendance 2024 en matière de design UI/UX",
+      "blogOneDescription": "Automatisez votre activité pour obtenir plus de résultats, en créant des activités qui.",
+      "blogSecondTitle": "Conseils pour la conception graphique",
+      "blogSecondDescription": "Automatisez votre activité pour obtenir plus de résultats, en créant des activités qui.",
+      "blogThirdTitle": "Conception Web créative",
+      "blogThirdDescription": "Automatisez votre activité pour obtenir plus de résultats, en créant des activités qui.",
+      "blogButtonText": "Read More"
+    },
+    {
+      "locale": "en",
+      "smallTitle": "BLOG",
+      "title": "Latest Blogs",
+      "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "blogOneTitle": "UI/UX Design Trend 2024",
+      "blogOneDescription": "Automate your Business for more results, Creating Business that.",
+      "blogSecondTitle": "Tips for Graphics Design",
+      "blogSecondDescription": "Automate your Business for more results, Creating Business that.",
+      "blogThirdTitle": "Creative Web Design",
+      "blogThirdDescription": "Automate your Business for more results, Creating Business that.",
+      "blogButtonText": "Read More"
+    }
+  ],
+  "contact": [
+    {
+      "locale": "fr",
+      "smallTitle": "DISCUTONS-EN",
+      "title": "Prêts à vous lancer ?",
+      "subtitle": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
+      "inputOne": "Entrez votre nom*",
+      "inputTwo": "Entreprise",
+      "inputThree": "Entrez votre email*",
+      "inputFour": "Numéro de téléphone",
+      "inputFive": "Parlez-nous de votre projet*",
+      "buttonTextOne": "Envoyer",
+      "buttonTextTwo": "Envoyé!",
+      "buttonTextThree": "En cours d'envoi..."
+    },
+    {
+      "locale": "en",
+      "smallTitle": "LET'S TALK",
+      "title": "Ready to get started?",
+      "subtitle": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
+      "inputOne": "Enter your name*",
+      "inputTwo": "Company",
+      "inputThree": "Enter your email*",
+      "inputFour": "Phone number",
+      "inputFive": "Tell us about your project*",
+      "buttonTextOne": "Send",
+      "buttonTextTwo": "Submitted",
+      "buttonTextThree": "Submitting..."
+    }
+  ],
+  "footer": [
+    {
+      "locale": "fr",
+      "columnOneTitle": "ITERU LOGO",
+      "columnOneTextOne": "contact@iteru-agency.com",
+      "columnOneTextTwo": "+33 7 88 33 69 82",
+      "columnTwoTextOne": "À PROPOS",
+      "columnTwoTextTwo": "SERVICES",
+      "columnTwoTextThree": "PROJETS",
+      "columnTwoTextFour": "ÉQUIPE",
+      "columnTwoTextFive": "TÉMOIGNAGES",
+      "bottomText": "2022 © Iteru - tous droits réservés"
+    },
+    {
+      "locale": "en",
+      "columnOneTitle": "ITERU LOGO",
+      "columnOneTextOne": "contact@iteru-agency.com",
+      "columnOneTextTwo": "+33 7 88 33 69 82",
+      "columnTwoTextOne": "About",
+      "columnTwoTextTwo": "Services",
+      "columnTwoTextThree": "Projects",
+      "columnTwoTextFour": "Team",
+      "columnTwoTextFive": "Testimonials",
+      "bottomText": "2022 © Iteru - all rights reserved"
+    }
+  ]
+}

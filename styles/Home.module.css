@@ -12,6 +12,28 @@
   align-items: center;
 }
 
+.navbarSwitchLanguage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 5px 5px 5px 100px !important; */
+  margin-left: 1rem;
+  padding-right: 70px;
+}
+
+.navbarSwitchLanguage span {
+  margin-right: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.navbarSwitchLanguage .selected {
+  background: #b89769;
+  color: white;
+  border-radius: 5px;
+}
+
 .footer {
   display: flex;
   flex: 1;
