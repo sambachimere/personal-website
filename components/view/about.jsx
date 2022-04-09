@@ -6,7 +6,7 @@ export const About = ({ texts }) => {
       <div className="container">
         <div className="flex flex-wrap mx-[-16px]">
           <div className="w-full lg:w-1/2 xl:w-7/12 px-4 mb-8 lg:mb-0">
-            <span className="font-bold text-primary d-text-lg md:text-xlud-mb-3">
+            <span className="font-bold text-primary d-text-lg md:text-xl mb-3">
               {texts.smallTitle}
             </span>
             <h2

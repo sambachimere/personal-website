@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import { FooterCircleDecoration } from '../ui/footer-circle-decoration';
 import { FooterGridDecoration } from '../ui/footer-grid-decoration';
@@ -13,7 +14,7 @@ export const Footer = ({ texts }) => {
   const columnOne = [
     {
       text: texts.columnOneTextOne,
-      href: 'mailto:contact@iteru-agency.com',
+      href: 'mailto:sambachimerediaw@gmail.com',
     },
     {
       text: texts.columnOneTextTwo,
@@ -21,10 +22,10 @@ export const Footer = ({ texts }) => {
     },
   ];
   const columnTwo = [
-    {
-      text: texts.columnTwoTextOne,
-      href: '#about',
-    },
+    // {
+    //   text: texts.columnTwoTextOne,
+    //   href: '#about',
+    // },
     {
       text: texts.columnTwoTextTwo,
       href: '#services',
@@ -35,11 +36,11 @@ export const Footer = ({ texts }) => {
     },
     {
       text: texts.columnTwoTextFour,
-      href: '#team',
+      href: '#clients',
     },
     {
       text: texts.columnTwoTextFive,
-      href: '#testimonial',
+      href: '#contact',
     },
   ];
 
@@ -50,13 +51,15 @@ export const Footer = ({ texts }) => {
           <div className="w-full md:w-1/2 lg:w-3/12 px-4">
             <div className="mb-10">
               <div className="mb-7">
-                <Image
-                  src="/images/logo/iteru-logo-white.svg"
-                  alt="logo"
-                  className="w-full"
-                  width="300"
-                  height="100"
-                />
+                <Link href="/" passHref>
+                  <Image
+                    src="/sd-logo-white-cropped.svg"
+                    alt="logo"
+                    width="300"
+                    height="100"
+                    passHref
+                  />
+                </Link>
               </div>
               <ul>
                 {columnOne.map((elem, i) => {
@@ -79,6 +82,9 @@ export const Footer = ({ texts }) => {
 
           <div className="w-full md:w-1/2 lg:w-3/12 px-4 flex md:justify-center">
             <div className="mb-10">
+              <h2 className="mb-5 text-2xl font-bold text-black dark:text-white">
+                {texts.columnTwoTitle}
+              </h2>
               <ul>
                 {columnTwo.map((elem, i) => {
                   return (

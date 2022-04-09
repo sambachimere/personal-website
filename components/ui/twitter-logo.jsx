@@ -1,7 +1,7 @@
 export const TwitterLogo = () => {
   return (
     <a
-      href="https://www.linkedin.com/company/iteru-agency/"
+      href="https://www.linkedin.com/in/samba-diaw-098039102/"
       target="_blank"
       rel="nofollow noreferrer"
       className="flex items-center justify-center w-8 h-8 founded-full mx-2 text-body-color hover:text-primary"

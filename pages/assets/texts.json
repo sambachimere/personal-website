@@ -5,18 +5,20 @@
       "navOne": "À propos",
       "navTwo": "Services",
       "navThree": "Projets",
-      "navFour": "Équipe",
+      "navFour": "Clients",
       "navFive": "Témoignages",
-      "callToActon": "Discutons-en"
+      "navSix": "Contact",
+      "callToActon": "Resume"
     },
     {
       "locale": "en",
       "navOne": "About",
       "navTwo": "Services",
       "navThree": "Projects",
-      "navFour": "Team",
+      "navFour": "Clients",
       "navFive": "Testimonials",
-      "callToActon": "Let's discuss it"
+      "navSix": "Contact",
+      "callToActon": "CV"
     }
   ],
   "hero": [
@@ -64,26 +66,26 @@
   "services": [
     {
       "locale": "fr",
-      "smallTitle": "NOS SERVICES",
-      "title": "Votre partenaire expert pour la création d'applications à mission",
+      "smallTitle": "MES SERVICES",
+      "title": "Je vous accompagne dans la création d'applications à mission",
       "buttonRedirection": "EXPLORER LES SERVICES",
       "cardOneTitle": "Développement de Landing Page & de Site Web",
-      "cardOneDescription": "Avec nous, vos landing pages et sites web sont entre de bonnes mains.",
+      "cardOneDescription": "Avec moi, vos landing pages et sites web sont entre de bonnes mains.",
       "cardTwoTitle": "Développement d'Application Web",
-      "cardTwoDescription": "Confiez-nous le développement de votre application web.",
+      "cardTwoDescription": "Confiez-moi le développement de votre application web.",
       "cardThreeTitle": "Développement d'Application Mobile",
       "cardThreeDescription": "Développons ensemble votre application mobile.",
       "cardButtonTitle": "Voir les détails"
     },
     {
       "locale": "en",
-      "smallTitle": "OUR SERVICES",
-      "title": "Your expert partners for building mission-driven apps",
+      "smallTitle": "MES SERVICES",
+      "title": "I am your partner for building mission-driven apps",
       "buttonRedirection": "EXPLORE SERVICES",
       "cardOneTitle": "Landing Page & Website Development",
-      "cardOneDescription": "With us, your landing pages and websites are in good hands.",
+      "cardOneDescription": "With me, your landing pages and websites are in good hands.",
       "cardTwoTitle": "Web App Development",
-      "cardTwoDescription": "Entrust us with the development of your web application.",
+      "cardTwoDescription": "Entrust me with the development of your web application.",
       "cardThreeTitle": "Mobile App Development",
       "cardThreeDescription": "Let's develop your mobile application together.",
       "cardButtonTitle": "View Details"
@@ -106,7 +108,11 @@
       "cardThreeTitle": "Century Social Club",
       "cardThreeDescription": "Century Social Club est une collection inspirée par l'univers des films d'animation. Pas trop réel, pas trop cartoon.",
       "cardFourTitle": "My Nfties",
-      "cardFourDescription": "My Nfties est la fusion entre le monde des réseaux sociaux et les NFTs | Créez vos Nfties en moins de 15 sec depuis votre smartphone."
+      "cardFourDescription": "My Nfties est la fusion entre le monde des réseaux sociaux et les NFTs | Créez vos Nfties en moins de 15 sec depuis votre smartphone.",
+      "cardFiveTitle": "Hercule vs Max",
+      "cardFiveDescription": "Max vs Hercules est le premier jeu Risk to Earn inspiré d'un dessin animé sur la blockchain Avalanche !",
+      "cardSixTitle": "Benga",
+      "cardSixDescription": "Benga est une startup française qui met en relation des étudiants désireux de travailler comme freelance business developer sur leur temps libre, avec d'autres startups."
     },
     {
       "locale": "en",
@@ -124,18 +130,22 @@
       "cardThreeTitle": "Century Social Club",
       "cardThreeDescription": "Century Secret Club is a collection inspired by the world of animated films. Not too real, not too cartoonish.",
       "cardFourTitle": "My Nfties",
-      "cardFourDescription": "My Nfties is the fusion between the world of social networks and NFTs. Create your Nfties in less than 15 sec from your smartphone."
+      "cardFourDescription": "My Nfties is the fusion between the world of social networks and NFTs. Create your Nfties in less than 15 sec from your smartphone.",
+      "cardFiveTitle": "Hercule vs Max",
+      "cardFiveDescription": "Max vs Hercules is the first Risk to Earn game inspired by a cartoon on the Avalanche Blockchain !",
+      "cardSixTitle": "Benga",
+      "cardSixDescription": "Benga is a french startup which puts in relation students willing to work as freelance business developers on their spare time, with other startups."
     }
   ],
   "clients": [
     {
       "locale": "fr",
-      "title": "Nos clients sont satisfaits",
+      "title": "Mes clients sont satisfaits",
       "description": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre."
     },
     {
       "locale": "en",
-      "title": "Some of our happy clients",
+      "title": "Some of my happy clients",
       "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
     }
   ],
@@ -345,7 +355,7 @@
       "inputTwo": "Entreprise",
       "inputThree": "Entrez votre email*",
       "inputFour": "Numéro de téléphone",
-      "inputFive": "Parlez-nous de votre projet*",
+      "inputFive": "Parlez-moi de votre projet*",
       "buttonTextOne": "Envoyer",
       "buttonTextTwo": "Envoyé!",
       "buttonTextThree": "En cours d'envoi..."
@@ -359,7 +369,7 @@
       "inputTwo": "Company",
       "inputThree": "Enter your email*",
       "inputFour": "Phone number",
-      "inputFive": "Tell us about your project*",
+      "inputFive": "Tell me about your project*",
       "buttonTextOne": "Send",
       "buttonTextTwo": "Submitted",
       "buttonTextThree": "Submitting..."
@@ -369,25 +379,27 @@
     {
       "locale": "fr",
       "columnOneTitle": "ITERU LOGO",
-      "columnOneTextOne": "contact@iteru-agency.com",
+      "columnOneTextOne": "sambachimerediaw@gmail.com",
       "columnOneTextTwo": "+33 7 88 33 69 82",
-      "columnTwoTextOne": "À PROPOS",
-      "columnTwoTextTwo": "SERVICES",
-      "columnTwoTextThree": "PROJETS",
-      "columnTwoTextFour": "ÉQUIPE",
-      "columnTwoTextFive": "TÉMOIGNAGES",
+      "columnTwoTitle": "Liens Rapides",
+      "columnTwoTextOne": "À Propos",
+      "columnTwoTextTwo": "Services",
+      "columnTwoTextThree": "Projets",
+      "columnTwoTextFour": "Clients",
+      "columnTwoTextFive": "Contact",
       "bottomText": "2022 © Iteru - tous droits réservés"
     },
     {
       "locale": "en",
       "columnOneTitle": "ITERU LOGO",
-      "columnOneTextOne": "contact@iteru-agency.com",
+      "columnOneTextOne": "sambachimerediaw@gmail.com",
       "columnOneTextTwo": "+33 7 88 33 69 82",
+      "columnTwoTitle": "Quick Links",
       "columnTwoTextOne": "About",
       "columnTwoTextTwo": "Services",
       "columnTwoTextThree": "Projects",
-      "columnTwoTextFour": "Team",
-      "columnTwoTextFive": "Testimonials",
+      "columnTwoTextFour": "Clients",
+      "columnTwoTextFive": "Contact",
       "bottomText": "2022 © Iteru - all rights reserved"
     }
   ]

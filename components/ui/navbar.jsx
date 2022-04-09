@@ -21,10 +21,10 @@ export const Navbar = ({ texts }) => {
   }
 
   const navs = [
-    {
-      text: texts.navOne,
-      href: '#about',
-    },
+    // {
+    //   text: texts.navOne,
+    //   href: '#about',
+    // },
     {
       text: texts.navTwo,
       href: '#services',
@@ -35,11 +35,15 @@ export const Navbar = ({ texts }) => {
     },
     {
       text: texts.navFour,
-      href: '#team',
+      href: '#clients',
     },
+    // {
+    //   text: texts.navFive,
+    //   href: '#testimonial',
+    // },
     {
-      text: texts.navFive,
-      href: '#testimonial',
+      text: texts.navSix,
+      href: '#contact',
     },
   ];
 
@@ -47,25 +51,15 @@ export const Navbar = ({ texts }) => {
     <header className="header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center transition pt-5">
       <div className="container">
         <div className="flex items-center justify-between relative">
-          <div className="lg:px-4 w-60 max-w-full">
-            <Link href="/" className="header-logo w-full block py-6 lg:py-8">
-              {theme === 'light' ? (
-                <Image
-                  src="/images/logo/iteru-logo.svg"
-                  alt="logo"
-                  className="w-full"
-                  width="300"
-                  height="100"
-                />
-              ) : (
-                <Image
-                  src="/images/logo/iteru-logo-white.svg"
-                  alt="logo"
-                  className="w-full"
-                  width="300"
-                  height="100"
-                />
-              )}
+          <div className="w-40 max-w-full">
+            <Link href="/" className="header-logo w-full block py-6 lg:py-8" passHref>
+              <Image
+                src={`${theme === 'light' ? '/sd-logo-black.svg' : '/sd-logo-white.svg'}`}
+                alt="logo"
+                className="w-full"
+                width="300"
+                height="100"
+              />
             </Link>
           </div>
           <div className="flex px-4 justify-between items-center w-full">

@@ -7,16 +7,20 @@ export const Clients = ({ texts }) => {
       url: 'https://www.artemis.immo/',
     },
     {
-      logo: '/images/brands/mondial-pare-brise.png',
-      url: 'https://www.mondialparebrise.fr/',
+      logo: '/c$c-white.png',
+      url: 'https://www.centurysocialclub.com/',
     },
     {
       logo: '/images/brands/serin-white.png',
       url: 'https://www.serin.fr/',
     },
     {
-      logo: '/images/brands/renault-group-white.svg',
+      logo: '/r2e-logo.webp',
       url: 'https://www.renaultgroup.com/en/',
+    },
+    {
+      logo: '/benga-logo.svg',
+      url: 'https://hey-benga.webflow.io/',
     },
   ];
 

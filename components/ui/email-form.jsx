@@ -44,7 +44,7 @@ const EmailForm = ({ texts }) => {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: 'POST',
-      url: 'https://formspree.io/f/xknyvojg',
+      url: 'https://formspree.io/f/moqrkvvk',
       data: inputs,
     })
       .then((response) => {

@@ -17,18 +17,30 @@ export const Portfolio = ({ texts }) => {
       description: texts.cardTwoDescription,
       url: 'https://www.artemis.immo/',
     },
-    // {
-    //   image: '/images/portfolio/c$c.png',
-    //   title: texts.cardThreeTitle,
-    //   description: texts.cardThreeDescription,
-    //   url: 'https://www.centurysecretclub.io/',
-    // },
-    // {
-    //   image: '/images/portfolio/my-nfties.png',
-    //   title: texts.cardFourTitle,
-    //   description: texts.cardFourDescription,
-    //   url: 'https://my-nfties.com/',
-    // },
+    {
+      image: '/images/portfolio/c$c.png',
+      title: texts.cardThreeTitle,
+      description: texts.cardThreeDescription,
+      url: 'https://www.centurysecretclub.io/',
+    },
+    {
+      image: '/images/portfolio/my-nfties.png',
+      title: texts.cardFourTitle,
+      description: texts.cardFourDescription,
+      url: 'https://my-nfties.com/',
+    },
+    {
+      image: '/images/portfolio/r2e-hercule-vs-max.png',
+      title: texts.cardFiveTitle,
+      description: texts.cardFiveDescription,
+      url: 'https://my-nfties.com/',
+    },
+    {
+      image: '/images/portfolio/benga.png',
+      title: texts.cardSixTitle,
+      description: texts.cardSixDescription,
+      url: 'https://hey-benga.webflow.io/',
+    },
   ];
 
   return (

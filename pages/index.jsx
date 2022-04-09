@@ -78,8 +78,8 @@ const Home = () => {
       <Portfolio texts={portfolioTexts} />
       <Clients texts={clientsTexts} />
       <CallToAction texts={callToActionTexts} />
-      <Team texts={teamTexts} />
-      <Testimonials texts={testimonialsTexts} />
+      {/* <Team texts={teamTexts} /> */}
+      {/* <Testimonials texts={testimonialsTexts} /> */}
       <Contact texts={contactTexts} />
       <Footer texts={footerTexts} />
       {/* <BackTop /> */}

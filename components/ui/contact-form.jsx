@@ -52,7 +52,7 @@ const ContactForm = ({ texts }) => {
     setStatus((prevStatus) => ({ ...prevStatus, submitting: true }));
     axios({
       method: 'POST',
-      url: 'https://formspree.io/mrgjazwb',
+      url: 'https://formspree.io/f/xeqnrool',
       data: inputs,
     })
       .then((response) => {
