@@ -14,10 +14,27 @@ export const Navbar = ({ texts }) => {
   const { theme, setTheme } = useContext(ThemeContext);
 
   const { locale, locales, asPath } = useRouter();
+
   const [visibleMenu, setVisibleMenu] = useState(false);
+  const [color, setColor] = useState(false);
 
   function handleOnBurgerClick() {
     setVisibleMenu((current) => !current);
+  }
+
+  if (typeof window !== 'undefined') {
+    const changeColor = () => {
+      if (window.scrollY >= 80) {
+        setColor(true);
+        console.log(true);
+      } else {
+        setColor(false);
+        console.log(false);
+      }
+      // console.log(window.scrollY)
+    };
+
+    window.addEventListener('scroll', changeColor);
   }
 
   const navs = [
@@ -48,18 +65,32 @@ export const Navbar = ({ texts }) => {
   ];
 
   return (
-    <header className="header bg-transparent absolute top-0 left-0 z-40 w-full flex items-center transition pt-5">
+    <header
+      className={`${
+        color ? 'bg-[#000]/75 h-20' : 'bg-transparent h-24'
+      } fixed header bg-transparent top-0 left-0 z-40 w-full flex items-center transition py-5`}
+    >
       <div className="container">
         <div className="flex items-center justify-between relative">
-          <div className="w-40 max-w-full">
-            <Link href="/" className="header-logo w-full block py-6 lg:py-8" passHref>
-              <Image
-                src={`${theme === 'light' ? '/sd-logo-black.svg' : '/sd-logo-white.svg'}`}
-                alt="logo"
-                className="w-full"
-                width="300"
-                height="100"
-              />
+          <div className="w-40 relative top-1 right-5">
+            <Link href="/" className="header-logo block py-6 lg:py-8" passHref>
+              {color ? (
+                <Image
+                  src="/sd-logo-white.svg"
+                  alt="logo"
+                  className="w-full"
+                  width="300"
+                  height="100"
+                />
+              ) : (
+                <Image
+                  src={`${theme === 'light' ? '/sd-logo-black.svg' : '/sd-logo-white.svg'}`}
+                  alt="logo"
+                  className="w-full"
+                  width="300"
+                  height="100"
+                />
+              )}
             </Link>
           </div>
           <div className="flex px-4 justify-between items-center w-full">
@@ -90,7 +121,9 @@ export const Navbar = ({ texts }) => {
                       <li className="relative group" key={`${nav}-${i}`}>
                         <a
                           href={nav.href}
-                          className="menu-scroll text-base text-black dark:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0"
+                          className={`menu-scroll text-base ${
+                            color ? 'text-white' : 'text-black'
+                          } dark:text-white group-hover:text-primary py-2 lg:py-6 lg:inline-flex lg:px-0 flex mx-8 lg:mr-0`}
                         >
                           {nav.text}
                         </a>
@@ -121,13 +154,15 @@ export const Navbar = ({ texts }) => {
                 </ul>
               </nav>
             </div>
-            <ThemeToggler />
+            <ThemeToggler color={color ? 'text-white' : 'text-black'} />
             <div className={styles.navbarSwitchLanguage}>
               {locales.map((l, i) => {
                 return (
                   <span
                     key={i}
-                    className={`${l === locale ? styles.selected : ''} dark:text-white`}
+                    className={`${l === locale ? styles.selected : ''} ${
+                      color ? 'text-white' : ''
+                    } dark:text-white`}
                   >
                     <Link href={asPath} locale={l}>
                       {l}
@@ -138,7 +173,9 @@ export const Navbar = ({ texts }) => {
             </div>
             <div className="sm:flex justify-end hidden pr-16 lg:pr-0">
               <a
-                href="#contact"
+                href="https://www.canva.com/design/DAEDLMB3tCk/BHvSppRDb6RqxMLi25d0Og/view"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-base font-bold text-white bg-primary rounded-full py-3 px-8 md:px-9 lg:px-8 xl:px-9 hover:shadow-signUp hover:bg-opacity-90 transition ease-in-out duration-300"
               >
                 {texts.callToActon}

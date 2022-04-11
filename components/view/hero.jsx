@@ -62,7 +62,7 @@ export const Hero = ({ texts }) => {
                 <div className="flex items-center">
                   {clients.map((client, i) => {
                     return (
-                      <div className="w-full py-3 mr-4" key={`${client.logo}-${i}`}>
+                      <div className="w-full py-3 mr-7" key={`${client.logo}-${i}`}>
                         <a target="_blank" href={client.url} rel="noopener noreferrer">
                           {theme === 'light' ? (
                             <Image src={client.darkLogo} alt="ayroui" width="1000" height="570" />
