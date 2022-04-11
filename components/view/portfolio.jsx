@@ -44,7 +44,7 @@ export const Portfolio = ({ texts }) => {
   ];
 
   return (
-    <section id="portfolio" className="pt-[120px] pb-[70px] dark:bg-night">
+    <section id="portfolio" className="pt-[120px] pb-[70px] bg-white dark:bg-night">
       <div className="container">
         <div className="flex flex-wrap mx-[-16px]">
           <div className="w-full px-4">

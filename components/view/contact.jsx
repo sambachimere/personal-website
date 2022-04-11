@@ -2,7 +2,7 @@ import ContactForm from '../ui/contact-form';
 
 export const Contact = ({ texts }) => {
   return (
-    <section id="contact" className="py-[120px] dark:bg-night">
+    <section id="contact" className="py-[120px] bg-white dark:bg-night">
       <div className="container">
         <div className="flex flex-wrap mx-[-16px]">
           <div className="w-full px-4">

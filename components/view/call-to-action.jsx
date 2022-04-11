@@ -2,7 +2,7 @@ import EmailForm from '../ui/email-form';
 
 export const CallToAction = ({ texts }) => {
   return (
-    <section className="mt-[-160px] dark:bg-night">
+    <section className="mt-[-160px] bg-white dark:bg-night">
       <div className="container">
         <div
           className="
