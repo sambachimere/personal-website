@@ -22,7 +22,7 @@ export const Navbar = ({ texts }) => {
     setVisibleMenu((current) => !current);
   }
 
-  if (typeof window !== 'undefined') {
+  useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 80) {
         setColor(true);
@@ -31,11 +31,10 @@ export const Navbar = ({ texts }) => {
         setColor(false);
         console.log(false);
       }
-      // console.log(window.scrollY)
     };
 
     window.addEventListener('scroll', changeColor);
-  }
+  });
 
   const navs = [
     // {
