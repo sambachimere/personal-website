@@ -95,7 +95,7 @@
     {
       "locale": "fr",
       "smallTitle": "PORTEFEUILLE DE CRÉATION",
-      "title": "Projets récents",
+      "title": "Projets",
       "description": "Il existe de nombreuses variantes de passages de Lorem Ipsum, mais la majorité d'entre elles ont subi des altérations sous une forme ou une autre.",
       "filterOne": "Tous",
       "filterTwo": "Site Web",
@@ -117,7 +117,7 @@
     {
       "locale": "en",
       "smallTitle": "CREATIVE PORTFOLIO",
-      "title": "Recent works",
+      "title": "Projects",
       "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form.",
       "filterOne": "All",
       "filterTwo": "Website",

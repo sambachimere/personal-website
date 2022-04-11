@@ -67,7 +67,7 @@ export const Navbar = ({ texts }) => {
     <header
       className={`${
         color ? 'bg-[#000]/75 h-20' : 'bg-transparent h-24'
-      } fixed header bg-transparent top-0 left-0 z-40 w-full flex items-center transition py-5`}
+      } fixed header top-0 left-0 z-40 w-full flex items-center transition py-5`}
     >
       <div className="container">
         <div className="flex items-center justify-between relative">

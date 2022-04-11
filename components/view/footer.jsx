@@ -82,7 +82,7 @@ export const Footer = ({ texts }) => {
 
           <div className="w-full md:w-1/2 lg:w-3/12 px-4 flex md:justify-center">
             <div className="mb-10">
-              <h2 className="mb-5 text-2xl font-bold text-black dark:text-white">
+              <h2 className="mb-5 text-2xl font-bold text-white dark:text-white">
                 {texts.columnTwoTitle}
               </h2>
               <ul>

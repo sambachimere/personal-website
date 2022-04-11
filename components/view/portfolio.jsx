@@ -23,12 +23,12 @@ export const Portfolio = ({ texts }) => {
       description: texts.cardThreeDescription,
       url: 'https://www.centurysecretclub.io/',
     },
-    {
-      image: '/images/portfolio/my-nfties.png',
-      title: texts.cardFourTitle,
-      description: texts.cardFourDescription,
-      url: 'https://my-nfties.com/',
-    },
+    // {
+    //   image: '/images/portfolio/my-nfties.png',
+    //   title: texts.cardFourTitle,
+    //   description: texts.cardFourDescription,
+    //   url: 'https://my-nfties.com/',
+    // },
     {
       image: '/images/portfolio/r2e-hercule-vs-max.png',
       title: texts.cardFiveTitle,
@@ -58,7 +58,7 @@ export const Portfolio = ({ texts }) => {
               {/* <p className="font-medium text-lg text-body-color">{texts.description}</p> */}
             </div>
           </div>
-          <div className="w-full px-4">
+          {/* <div className="w-full px-4">
             <div className="portfolio-buttons flex flex-wrap items-center justify-center mb-12">
               <button
                 className="sm:font-semibold text-sm sm:text-base block py-2 px-5 md:mx-2 mb-2 rounded-full text-body-color active"
@@ -79,11 +79,11 @@ export const Portfolio = ({ texts }) => {
                 );
               })}
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className="portfolio-container flex justify-center -mx-4">
-          <div className="w-full xl:w-10/12 px-4">
+        <div className="flex justify-center">
+          <div className="w-full px-4 lg:px-0">
             <div className="items-wrapper flex flex-wrap justify-center mx-[-16px]">
               {projects.map((project, i) => {
                 return (
