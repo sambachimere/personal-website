@@ -33,7 +33,7 @@ export const Portfolio = ({ texts }) => {
       image: '/images/portfolio/r2e-hercule-vs-max.png',
       title: texts.cardFiveTitle,
       description: texts.cardFiveDescription,
-      url: 'https://my-nfties.com/',
+      // url: 'https://my-nfties.com/',
     },
     {
       image: '/images/portfolio/benga.png',

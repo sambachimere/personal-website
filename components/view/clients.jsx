@@ -16,7 +16,7 @@ export const Clients = ({ texts }) => {
     },
     {
       logo: '/r2e-logo.webp',
-      url: 'https://www.renaultgroup.com/en/',
+      // url: 'https://www.renaultgroup.com/en/',
     },
     {
       logo: '/benga-logo.svg',
@@ -27,16 +27,16 @@ export const Clients = ({ texts }) => {
   return (
     <section id="clients" className="pt-20 pb-[250px] bg-black relative">
       <div className="container">
-        <div className="flex flex-wrap mx-[-16px]">
+        <div className="flex flex-wrap sm:mx-[-16px]">
           <div className="w-full px-4">
             <div className="max-w-[1000px] mx-auto mb-12 text-center">
               <h2 className="font-bold text-3xl md:text-7xl text-white mb-4">{texts.title}</h2>
               {/* <p className="font-medium text-lg text-body-color">{texts.description}</p> */}
             </div>
           </div>
-          <div className="w-full px-4">
+          <div className="w-full sm:px-4">
             <div
-              className="flex flex-wrap items-center justify-center wow fadeInUp"
+              className="sm:flex sm:flex-wrap items-center justify-center fadeInUp"
               data-wow-delay=".1s"
             >
               {clients.map((client, i) => {
@@ -46,11 +46,11 @@ export const Clients = ({ texts }) => {
                     target="_blank"
                     rel="nofollow noreferrer"
                     className="
-                      flex items-center justify-center max-w-[120px]
+                      flex items-center justify-center sm:max-w-[120px]
                       lg:max-w-[130px]
                       xl:max-w-[150px]
                       2xl:max-w-[160px]
-                      mx-3
+                      mx-[90px]
                       sm:mx-4
                       xl:mx-6
                       2xl:mx-8
