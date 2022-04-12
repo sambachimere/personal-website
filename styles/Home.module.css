@@ -29,7 +29,8 @@
 }
 
 .navbarSwitchLanguage .selected {
-  background: #b89769;
+  /* background: #b89769; */
+  background: #e1ae00;
   color: white;
   border-radius: 5px;
 }

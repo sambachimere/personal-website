@@ -27,7 +27,7 @@ export const Services = ({ texts }) => {
       <div className="container">
         <div className="flex flex-wrap items-end -mx-4 mb-10 lg:mb-[60px]">
           {/* <div className="w-full lg:w-8/12 px-4"> */}
-          <div className="w-full lg:w-full px-4">
+          <div className="w-full lg:w-full px-4 pb-2">
             <div className="max-w-[1450px] mb-5">
               <span className="font-semibold text-lg text-primary mb-2 block">
                 {texts.smallTitle}

@@ -23,12 +23,12 @@ export const Portfolio = ({ texts }) => {
       description: texts.cardThreeDescription,
       url: 'https://www.centurysecretclub.io/',
     },
-    // {
-    //   image: '/images/portfolio/my-nfties.png',
-    //   title: texts.cardFourTitle,
-    //   description: texts.cardFourDescription,
-    //   url: 'https://my-nfties.com/',
-    // },
+    {
+      image: '/images/portfolio/my-nfties.png',
+      title: texts.cardFourTitle,
+      description: texts.cardFourDescription,
+      url: 'https://my-nfties.com/',
+    },
     {
       image: '/images/portfolio/r2e-hercule-vs-max.png',
       title: texts.cardFiveTitle,
@@ -40,6 +40,18 @@ export const Portfolio = ({ texts }) => {
       title: texts.cardSixTitle,
       description: texts.cardSixDescription,
       url: 'https://hey-benga.webflow.io/',
+    },
+    {
+      image: '/images/portfolio/kem.png',
+      title: texts.cardSevenTitle,
+      description: texts.cardSevenDescription,
+      url: 'https://kem-384a14.webflow.io/',
+    },
+    {
+      image: '/images/portfolio/crwn-shop.png',
+      title: texts.cardEightTitle,
+      description: texts.cardEightDescription,
+      url: 'https://crwn-s.herokuapp.com/',
     },
   ];
 
@@ -97,6 +109,32 @@ export const Portfolio = ({ texts }) => {
                 );
               })}
             </div>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="mr-5">
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+            <div className="bg-primary h-1 w-[1px] mb-1" />
+          </div>
+          <div>
+            <h1 className="dark:text-white text-body font-light">
+              {texts.bottomText}{' '}
+              <a
+                href="https://github.com/sambachimere"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary"
+              >
+                github :)
+              </a>
+            </h1>
+            <h1 className="dark:text-white text-body font-light">{texts.bottomTextOne}</h1>
           </div>
         </div>
       </div>

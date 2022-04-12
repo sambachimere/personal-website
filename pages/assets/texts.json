@@ -112,7 +112,13 @@
       "cardFiveTitle": "Hercule vs Max",
       "cardFiveDescription": "Max vs Hercules est le premier jeu Risk to Earn inspiré d'un dessin animé sur la blockchain Avalanche !",
       "cardSixTitle": "Benga",
-      "cardSixDescription": "Benga est une startup française qui met en relation des étudiants désireux de travailler comme freelance business developer sur leur temps libre, avec d'autres startups."
+      "cardSixDescription": "Benga est une startup française qui met en relation des étudiants désireux de travailler comme freelance business developer sur leur temps libre, avec d'autres startups.",
+      "cardSevenTitle": "Kem",
+      "cardSevenDescription": "Une application mobile pour découvrir l'histoire et l'actualité de l'Afrique.",
+      "cardEightTitle": "Crwn Shop",
+      "cardEightDescription": "Crwn Shop est un site de commerce électronique spécialisé dans la vente de vêtements.",
+      "bottomText": "J'ai d'autres projets sur",
+      "bottomTextOne": "Certains d'entre eux sont privés. N'hésitez pas à me contacter si vous souhaitez en apprendre plus."
     },
     {
       "locale": "en",
@@ -134,7 +140,13 @@
       "cardFiveTitle": "Hercule vs Max",
       "cardFiveDescription": "Max vs Hercules is the first Risk to Earn game inspired by a cartoon on the Avalanche Blockchain !",
       "cardSixTitle": "Benga",
-      "cardSixDescription": "Benga is a french startup which puts in relation students willing to work as freelance business developers on their spare time, with other startups."
+      "cardSixDescription": "Benga is a french startup which puts in relation students willing to work as freelance business developers on their spare time, with other startups.",
+      "cardSevenTitle": "Kem",
+      "cardSevenDescription": "A mobile app to learn about the history and the actuality of Africa.",
+      "cardEightTitle": "Crwn Shop",
+      "cardEightDescription": "Crwn Shop is an e-commerce specialized in clothing sales.",
+      "bottomText": "I got more projects on",
+      "bottomTextOne": "Some of them or private. Please contact me if you want to learn more about them."
     }
   ],
   "clients": [

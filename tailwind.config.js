@@ -26,10 +26,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        night: '#1F2028',
-        black: '#080706',
+        // night: '#1F2028',
+        night: '#000',
+        // black: '#080706',
+        black: '#000',
         dark: '#1D2144',
-        primary: '#b89769',
+        // primary: '#b89769',
+        primary: '#e1ae00',
         yellow: '#FBB040',
         grey: '#2e3039',
         'body-color': '#818890',
