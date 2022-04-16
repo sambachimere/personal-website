@@ -17,7 +17,7 @@ export const Hero = ({ texts }) => {
     {
       whiteLogo: '/serin-white.png',
       darkLogo: '/serin-dark.png',
-      url: 'https://www.serin.fr/c',
+      url: 'https://www.serin.fr/',
     },
     {
       whiteLogo: '/c$c-white.png',

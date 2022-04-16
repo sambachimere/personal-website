@@ -19,8 +19,8 @@ export const FooterCircleDecoration = () => {
             y2="173.773"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stopColor="#b89769" />
-            <stop offset="1" stopColor="#b89769" stopOpacity="0" />
+            <stop stopColor="#e1ae00" />
+            <stop offset="1" stopColor="#e1ae00" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>

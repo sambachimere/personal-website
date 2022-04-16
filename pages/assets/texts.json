@@ -8,7 +8,7 @@
       "navFour": "Clients",
       "navFive": "Témoignages",
       "navSix": "Contact",
-      "callToActon": "Resume"
+      "callToActon": "CV"
     },
     {
       "locale": "en",
@@ -18,7 +18,7 @@
       "navFour": "Clients",
       "navFive": "Testimonials",
       "navSix": "Contact",
-      "callToActon": "CV"
+      "callToActon": "Resume"
     }
   ],
   "hero": [
