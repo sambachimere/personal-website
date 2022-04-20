@@ -12,6 +12,12 @@ export const Portfolio = ({ texts }) => {
       url: 'https://www.serin.fr/',
     },
     {
+      image: '/images/portfolio/commerce.png',
+      title: texts.cardNineTitle,
+      description: texts.cardNineDescription,
+      url: 'https://commerce-hs4p.vercel.app/',
+    },
+    {
       image: '/images/portfolio/artemis.png',
       title: texts.cardTwoTitle,
       description: texts.cardTwoDescription,
@@ -47,12 +53,12 @@ export const Portfolio = ({ texts }) => {
       description: texts.cardSevenDescription,
       url: 'https://kem-384a14.webflow.io/',
     },
-    {
-      image: '/images/portfolio/crwn-shop.png',
-      title: texts.cardEightTitle,
-      description: texts.cardEightDescription,
-      url: 'https://crwn-s.herokuapp.com/',
-    },
+    // {
+    //   image: '/images/portfolio/crwn-shop.png',
+    //   title: texts.cardEightTitle,
+    //   description: texts.cardEightDescription,
+    //   url: 'https://crwn-s.herokuapp.com/',
+    // },
   ];
 
   return (
